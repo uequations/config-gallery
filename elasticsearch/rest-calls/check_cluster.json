@@ -1,0 +1,58 @@
+GET /_cluster/state?pretty
+
+{
+  "cluster_name" : "lumberjawn-cluster",
+  "compressed_size_in_bytes" : 353,
+  "version" : 869,
+  "state_uuid" : "nc_XOoH9QAyQnNzOgI1WJw",
+  "master_node" : "vAzsyTHtTGiDcjfs2XwuZQ",
+  "blocks" : { },
+  "nodes" : {
+    "vAzsyTHtTGiDcjfs2XwuZQ" : {
+      "name" : "ip-10-0-0-225",
+      "ephemeral_id" : "C53ScjhYRl2u4yBzG9ThDQ",
+      "transport_address" : "10.0.0.225:9300",
+      "attributes" : { }
+    },
+    "QLE9h4q7RcKUo9hRLAB4QQ" : {
+      "name" : "ip-10-0-0-41",
+      "ephemeral_id" : "bCwgAaX4TeiggZAKzdoNeA",
+      "transport_address" : "10.0.0.41:9300",
+      "attributes" : { }
+    },
+    "RqW95UbqSV6zKTS7WZ-bKg" : {
+      "name" : "ip-10-0-0-71",
+      "ephemeral_id" : "F0lAZArsShSTgzu6xpoVtw",
+      "transport_address" : "10.0.0.71:9300",
+      "attributes" : { }
+    }
+  },
+  "metadata" : {
+    "cluster_uuid" : "oMDzh4N1QfahW58UaHVXUA",
+    "templates" : { },
+    "indices" : { },
+    "index-graveyard" : {
+      "tombstones" : [ ]
+    }
+  },
+  "routing_table" : {
+    "indices" : { }
+  },
+  "routing_nodes" : {
+    "unassigned" : [ ],
+    "nodes" : {
+      "RqW95UbqSV6zKTS7WZ-bKg" : [ ],
+      "QLE9h4q7RcKUo9hRLAB4QQ" : [ ],
+      "vAzsyTHtTGiDcjfs2XwuZQ" : [ ]
+    }
+  },
+  "snapshot_deletions" : {
+    "snapshot_deletions" : [ ]
+  },
+  "restore" : {
+    "snapshots" : [ ]
+  },
+  "snapshots" : {
+    "snapshots" : [ ]
+  }
+}
