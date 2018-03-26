@@ -1,0 +1,15 @@
+input {
+   tcp {
+      port => 8080
+   }
+}
+
+output {
+   elasticsearch {
+      hosts => ["10.0.0.41:9200"]
+   }
+
+   stdout {
+   codec => rubydebug
+  }
+}
